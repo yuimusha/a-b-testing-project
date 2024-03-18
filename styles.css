@@ -1,0 +1,77 @@
+body{  
+    display: box;
+    margin: 0;
+    background-color: #FDFCDC;
+}
+* {
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 100;
+    font-size: 3rem;
+}
+h2{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 100;
+    font-size: 2rem;
+    color: #F07167;
+}
+h3{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #00AFB9;
+}
+p{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 100;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+img{
+    width: 100%;
+}
+/* header */
+header{
+    display: box;
+    margin: 0;
+    z-index:2;
+    width: 100%;
+    text-align:center;
+    margin-bottom: 4rem;
+}
+#project-name{
+    margin: 5rem 0 0 1.5rem;
+    color: #F07167;
+}
+
+/* body */
+#main{
+    margin: 0 13rem 10rem 13rem;
+}
+.project-part{
+    margin-top: 5rem;
+}
+.content-box{
+    margin-left: 1.5rem;
+}
+.sub-content-box{
+    margin-top: 4rem;
+}
+.inner-content-box{
+    margin-top: 2rem;
+}
+.underlined-text{
+    font-weight:bold;
+    /*text-decoration: underline;*/
+    /*text-decoration-color: black;*/
+    text-align:center;
+    font-size: 1.3rem;
+}
+.bold-text{
+    font-weight:bold;
+}
+.value-text{
+    text-decoration: underline;
+}
